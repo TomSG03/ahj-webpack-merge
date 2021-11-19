@@ -1,0 +1,42 @@
+{
+  "name": "env-yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --config webpack.dev.js",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": "https://github.com/TomSG03/ahj-webpack-merge.git",
+  "author": "Tomilov Sergey <tomexpert@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^3.19.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "v3",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "html-loader": "v1",
+    "html-webpack-plugin": "v4",
+    "jest": "v25",
+    "mini-css-extract-plugin": "v0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "terser-webpack-plugin": "v4",
+    "url-loader": "v4",
+    "webpack": "v4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
